@@ -1,17 +1,17 @@
 <!DOCTYPE html>
 <html lang="ru">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Оно тебе надо — аукцион вещей, в которые никто не верил</title>
-    <link rel="stylesheet" href="fonts/fonts.css" />
-    <link rel="stylesheet" href="styles/global.css" />
-    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="fonts/fonts.css"/>
+    <link rel="stylesheet" href="styles/global.css"/>
+    <link rel="stylesheet" href="styles/style.css"/>
   </head>
   <body class="body">
     <!-- Header -->
-    <div class="header">
+    <header class="header">
       <ul class="header_menu">
         <li class="header_menu-item-no_bullit">главная</li>
         <li class="header_menu-item">
@@ -25,40 +25,23 @@
         <img
           class="header_logo-image"
           src="images/logo-black.svg"
-          alt="Логотип Оно тебе надо"
-        />
+          alt="Логотип Оно тебе надо"/>
       </a>
-      <div class="header_adress">
-        <ul class="adress_list">
-          <li>
-            <a class="phone-number" href="tel:+99995555555">+9 999 555 5555 </a>
-          </li>
-          <li>
-            <a class="email" href="mailto:info@sobaka.ge">info@sobaka.ge </a>
-          </li>
-          <li>
-            <adress class="adress"
-              >наб. Принсенграхт 263-265,<br />Амстердам</adress
-            >
-          </li>
-        </ul>
-      </div>
-    </div>
+      <address class="address-list header_address">
+        <a class="phone-number" href="tel:+99995555555">+9 999 555 5555 </a>
+        <a class="email" href="mailto:info@sobaka.ge">info@sobaka.ge </a>
+        <p class="address">наб. Принсенграхт 263-265,<br>Амстердам</p>
+      </address>
+    </header>
 
     <main class="layout">
       <!-- Cover -->
       <section class="cover">
         <div class="overlay"></div>
         <h1 class="cover_title">
-          <span class="aligned-text-left"
-            >О<span class="separate-letter">НО</span></span
-          >
-          <p class="aligned-text-center">
-            <span>ТЕ</span><span class="separate-letter">БЕ</span>
-          </p>
-          <span class="aligned-text-right"
-            ><span class="separate-letter">Н</span>АДО</span
-          >
+          <span class="aligned-text-left">О<span class="separate-letter">НО</span></span>
+          <span class="aligned-text-center"><span>ТЕ</span><span class="separate-letter">БЕ</span></span>
+          <span class="aligned-text-right"><span class="separate-letter">Н</span>АДО</span>
         </h1>
         <div class="cover_descriprion">
           <p class="cover_description-text">
@@ -77,8 +60,7 @@
               <article class="card">
                 <img
                   src="/images/card-lot-01.jpg"
-                  alt="Девушка держит зеркало, в которое смотрит причесывающийся парень"
-                />
+                  alt="девушка держит зеркало, в которое смотрит причесывающийся парень"/>
                 <div class="overlay">
                   <div class="lots_text">
                     <h3 class="lots_card-title">
@@ -99,7 +81,7 @@
               <article class="card">
                 <img
                   src="/images/card-lot-02.jpg"
-                  alt="обложка книга Джеймса Джойса Улисс"
+                  alt="обложка книги Джеймса Джойса Улисс"
                 />
                 <div class="overlay">
                   <div class="lots_text">
@@ -181,20 +163,12 @@
       </section>
 
       <!-- Footer -->
-      <div class="footer">
-        <ul class="adress_list">
-          <li>
+      <footer class="footer">
+        <address class="address-list footer-address">
             <a class="phone-number" href="tel:+99995555555">+9 999 555 5555 </a>
-          </li>
-          <li>
             <a class="email" href="mailto:info@sobaka.ge">info@sobaka.ge </a>
-          </li>
-          <li>
-            <adress class="adress"
-              >наб. Принсенграхт 263-265, <br />Амстердам</adress
-            >
-          </li>
-        </ul>
+            <p class="address">наб. Принсенграхт 263-265, <br>Амстердам</p>
+        </address>
         <nav class="footer_menu">
           <ul class="footer_menu-list">
             <li class="footer_menu-link_active">главная</li>
@@ -233,7 +207,7 @@
             </li>
           </ul>
         </div>
-      </div>
+      </footer>
     </main>
   </body>
 </html>
